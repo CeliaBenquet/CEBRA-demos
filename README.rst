@@ -10,6 +10,7 @@ installation, and the datasets required to run the notebooks, available on
 .. nbgallery::
    :maxdepth: 2
 
+   Getting Started with CEBRA <demo_notebooks/CEBRA_best_practices.ipynb>
    Encoding of space, hippocampus (CA1) <demo_notebooks/Demo_hippocampus.ipynb>
    Decoding movie features from (V1) visual cortex <demo_notebooks/Demo_Allen.ipynb>
    Forelimb dynamics, somatosensory (S1) <demo_notebooks/Demo_primate_reaching.ipynb>
@@ -24,6 +25,7 @@ installation, and the datasets required to run the notebooks, available on
    Technical: Learning the temperature parameter <demo_notebooks/Demo_learnable_temperature.ipynb>
    Demo: Using OpenScope Data <demo_notebooks/Demo_openscope_databook.ipynb>
    Demo: Using Dandi Data <demo_notebooks/Demo_dandi_NeuroDataReHack_2023.ipynb>
+   Explainability: xCEBRA on RatInABox dataset <demo_notebooks/Demo_xCEBRA_RatInABox.ipynb>
    
 
 The demo notebooks can also be found on `GitHub <https://github.com/AdaptiveMotorControlLab/CEBRA-demos>`__.
@@ -60,6 +62,11 @@ For different paths, you can specify the ``CEBRA_DATADIR=...``
 environment variable. You can do this by placing
 ``import os; os.environ['CEBRA_DATADIR'] = "path/to/your/data"`` at the
 **top** of your notebook.
+
+Contributing 
+------------
+
+We welcome Demo notebooks from others! Please `fork the repo <https://github.com/AdaptiveMotorControlLab/CEBRA-demos>`__, add your notebook, check that it works on Google Colaboratory (remove the launch button within your PR), and then open a PR! Please also edit the "gallery" list (see the soure code for this page), and finally, add an icon `here <https://github.com/AdaptiveMotorControlLab/CEBRA-assets>`__, then a path to the icon `here <https://github.com/AdaptiveMotorControlLab/CEBRA/blob/main/docs/source/conf.py>`__.
 
 
 For reference, the original open-source data we used in Schneider, Lee, Mathis 2023 is available at:
