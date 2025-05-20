@@ -26,7 +26,7 @@ installation, and the datasets required to run the notebooks, available on
    Demo: Using OpenScope Data <demo_notebooks/Demo_openscope_databook.ipynb>
    Demo: Using Dandi Data <demo_notebooks/Demo_dandi_NeuroDataReHack_2023.ipynb>
    Explainability: xCEBRA on RatInABox dataset <demo_notebooks/Demo_xCEBRA_RatInABox.ipynb>
-   
+   Unified CEBRA: Training a single model across multiple sessions <demo_notebooks/Demo_hippocampus_unified.ipynb>
 
 The demo notebooks can also be found on `GitHub <https://github.com/AdaptiveMotorControlLab/CEBRA-demos>`__.
 
